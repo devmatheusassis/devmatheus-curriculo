@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 2rem 3rem;
+    display: flex;
+}
+main h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+main h2{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+main p{
+    font-size: 14px;
+}
+.box-main-left{
+    width: 40%;
+}
+.box-main-right{
+    padding-left: 5%;
+    width: 55%;
+    border-left: 1px dashed #cccccc;
+}
+.contato p{
+    line-height: 22px;
+}
+.contato img{
+    vertical-align: middle;
+    width: 1rem;
+    margin: 2px;
+}
+.formacao h3{
+    margin: 10px 0;
+}
+.formacao li{
+    width: 70%;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.conhecimentos img{
+    width: 60%;
+}
+.conhecimentos p{
+    margin-bottom: 10px;
+}
+.ferramentas p{
+    margin-bottom: 10px;
+}
+.descricao p{
+    text-align: justify;
+}
+.linkedin img{
+    width: 1.5rem;
+    vertical-align: middle;
+}
+.linkedin a{
+    color: black;
+    text-decoration: none;
+}
+.github{
+    margin-bottom: 40px;
+}
+.github img{
+    width: 1.5rem;
+    vertical-align: middle;
+}
+.github a{
+    text-decoration: none;
+    color: black;
+}
+.servico1{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.servico1 h2{
+    margin-bottom: 10px;
+}
+.servico1 h3{
+    font-size: 15px;
+}
+.servico1-left{
+    width: 30%;
+}
+.servico1-right{
+    margin-left: 10%;
+    width: 60%;
+}
+.servico2{
+    display: flex;
+}
+.servico2{
+    display: flex;
+}
+.servico2 h2{
+    margin-bottom: 10px;
+}
+.servico2 h3{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.servico2-left{
+    width: 30%;
+}
+.servico2-right{
+    margin-left: 10%;
+    width: 60%;
+}
+footer{
+    padding: 1rem;
+    background-color: #242424;
+}
