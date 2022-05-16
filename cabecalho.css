@@ -59,3 +59,27 @@ body{
     margin: 0 auto;
     font-size: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .box-principal{
+        height: 31rem;
+        display: block;
+    }
+    .box-left{
+        height: 10rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .foto img{
+        width: 10rem;
+    }
+    .box-right{
+        margin-top: 3.5rem;
+        width: 100%;
+        text-align: center;
+    }
+}

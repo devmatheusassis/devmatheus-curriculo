@@ -116,3 +116,85 @@ footer{
     padding: 1rem;
     background-color: #242424;
 }
+@media screen and (max-width: 480px){
+    main{
+        display: block;
+    }
+    main h1, h2, h3{
+        text-align: center;
+    }
+    .box-main-left{
+        width: 100%;
+    }
+    .box-main-right{
+        padding: 0;
+        width: 100%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .formacao p{
+        text-align: center;
+    }
+    .formacao li{
+        width: 100%;
+        margin: 0 10%;
+    }
+    .conhecimentos{
+        text-align: center;
+    }
+    .conhecimentos img{
+        display: block;
+        margin: .5rem auto;
+    }
+    .conhecimentos p{
+        margin-bottom: 1rem;
+    }
+    .ferramentas{
+        text-align: center;
+    }
+    .certificacao p, h2{
+        text-align: center;
+    }
+    .linkedin img{
+        display: block;
+        margin: .5rem auto;
+    }
+    .github img{
+        display: block;
+        margin: .4rem auto;
+    }
+    .github{
+        margin-bottom: 1rem;
+    }
+    .servico1{
+        display: block;
+    }
+    .servico1-left{
+        width: 100%;
+        text-align: center;
+    }
+    .servico1-right{
+        width: 100%;
+        text-align: justify;
+        margin: 1rem auto;
+    }
+    .servico2{
+        display: block;
+    }
+    .servico2-left{
+        width: 100%;
+        text-align: center;
+    }
+    .servico2-right{
+        width: 100%;
+        text-align: justify;
+        margin: 1rem auto;
+    }
+    .descricao{
+        margin-top: .5rem;
+        border-top: 1px dashed #cccccc;
+        order: 1;
+        width: 100%;
+    }
+}
