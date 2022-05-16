@@ -54,6 +54,7 @@ main p{
 }
 .descricao p{
     text-align: justify;
+    margin-top: 15px;
 }
 .linkedin img{
     width: 1.5rem;
