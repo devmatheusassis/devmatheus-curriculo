@@ -6,42 +6,37 @@
     <meta name="author" content="Matheus Henrique de Assis">
     <link rel="stylesheet" href="cabecalho.css">
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap">
     <title>Currículo Dev Matheus Henrique</title>
 </head>
 <body>
 <div class="container">
     <header class="box-principal">
         <div class="box-left">
-            <div class="foto">
-                <img src="img/foto_matheus.png" alt="Foto Matheus">
-            </div>
-            <div class="triangulo">
-                <img src="img/triangulo.png">
-            </div>
+            <div class="foto"></div>
+            <div class="triangulo"></div>
         </div>
         <div class="box-right">
-            <div class="titulo">
-                <img src="img/titulo_dev.png" alt="Desenvolvedor Front-End">
-            </div>
+            <div class="titulo"></div>
             <div class="nome">
                 <h1>Matheus Henrique</h1>
                 <h2>Teixeira de Assis</h2>
             </div>
         </div>
     </header>
-    <main>
+    <main class="box">
         <div class="box-main-left">
             <section class="contato">
                 <h1>Contato</h1>
-                <p><img src="img/icon_telefone.png"> +55 61 9 9246-1119</p>
-                <p><img src="img/icon_email.png"> dev.matheusassis@gmail.com</p>
-                <p><img src="img/icon_local.png"> Sobradinho, Brasília, DF</p>
+                <a class="telefone-icon" href="tel: +5561992461119">+55 61 9 9246-1119</a><br>
+                <a class="email-icon" href="mailto:dev.matheusassis@gmail.com">dev.matheusassis@gmail.com</a><br>
+                <a class="local-icon" href="https://www.google.com/maps/@-15.6514317,-47.8158354,14.38z" target="_blank">Sobradinho, Brasília, DF</a>
             </section>
             <section class="formacao">
                 <h1>Formação</h1>
-                <h2>UNICEPLAC</h2>
+                <h2>Uniceplac</h2>
                 <p>2017 - 2021</p>
+                <p>Formado Bacharel</p>
                 <h3>Sistemas de Informação</h3>
                 <ul>
                     <li>Desenvovimento Front-End e Back-End</li>
@@ -50,10 +45,10 @@
             </section>
             <section class="conhecimentos">
                 <h1>Conhecimentos</h1>
-                <h2>Html</h2><img src="img/barra-html.png"><p>90%</p>
-                <h2>Css</h2><img src="img/barra-css.png"><p>80%</p>
-                <h2>JavaScript</h2><img src="img/barra-javascript.png"><p>30%</p>
-                <h2>Java</h2><img src="img/barra-java.png"><p>50%</p>
+                <h2>HTML</h2><p class="porcent-html">90%</p>
+                <h2>CSS</h2><p class="porcent-css">80%</p>
+                <h2>JAVASCRIPT</h2><p class="porcent-js">30%</p>
+                <h2>JAVA</h2><p class="porcent-java">50%</p>
             </section>
             <section class="ferramentas">
                 <h1>Ferramentas</h1>
@@ -71,7 +66,7 @@
         </div>
         <div class="box-main-right">
             <section class="descricao">
-                <p>Profissional de TI iniciando a carreira de Desenvolvedor FrontEnd e com grande interesse 
+                <p>Profissional de TI iniciando a carreira de Desenvolvedor Front-End e com grande interesse 
                     pela área de programação Web. Disposição para o aprendizado a novas tecnologias e a 
                     aplicação de conhecimentos e habilidades interpessoais no âmbito
                     profissional, buscando crescer junto à empresa.</p>
@@ -79,15 +74,16 @@
             <section class="certificacao">
                 <h1>Certificação</h1>
                 <h2>ITIL® 4 FOUNDATION</h2>
-                <p>CERTIFICATE IN IT SERVICE MANAGEMENT</p>
+                <p>CERTIFICATE IN IT SERVICE MANAGEMENT</p><br>
+                <p class="cert">Certification Number: <strong>GR671391323MT</strong><a href="https://www.peoplecert.org/for-corporations/certificate-verification-service" target="_blank"><img src="img/check.png" alt="Botão Check"></a></p>
             </section>
             <section class="linkedin">
                 <h1>Linkedin</h1>
-                <img src="img/icon_linkedin.png"><a href="https://www.linkedin.com/in/matheusdeassis" target="_blank"> linkedin.com/in/matheusdeassis</a>
+                <a href="https://www.linkedin.com/in/matheusdeassis" target="_blank"> linkedin.com/in/matheusdeassis</a>
             </section>
             <section class="github">
-                <h1>Github</h1> 
-                <img src="img/icon_github.png"><a href="https://github.com/devmatheusassis" target="_blank"> github.com/devmatheusassis</a>
+                <h1>Github</h1>
+                <a href="https://github.com/devmatheusassis" target="_blank"> github.com/devmatheusassis</a>
             </section>
             <section class="experiencia">
                 <h1>Experiência</h1>
@@ -124,7 +120,7 @@
             </section>
         </div>
     </main>
-    <footer></footer>
+    <footer class="rodape"></footer>
 </div>
 </body>
 </html>

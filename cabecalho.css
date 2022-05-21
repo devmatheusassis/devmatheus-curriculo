@@ -15,11 +15,11 @@ body{
 .container{
     background-color: var(--branco);
     width: 50rem;
-    margin: 10px auto;
+    margin: 15px auto;
     box-shadow: 0 0 10px 0;
 }
 .box-principal{
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     display: flex;
     background-color: var(--cinza-escuro);
     height: 16rem;
@@ -32,16 +32,26 @@ body{
 .box-right{
     width: 60%;
 }
-.foto img{
+.foto{
+    background-image: url(img/foto_matheus.png);
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
     width: 10rem;
+    height: 12rem;
 }
 .triangulo{
     position: relative;
-    left: -3.5rem;
-    top: -4.5rem;
-}
-.triangulo img{
+    background-image: url(img/triangulo.png);
+    background-size: 5rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
     width: 5rem;
+    height: 5rem;
+    left: -3.5rem;
+    top: -4.9rem;
 }
 .titulo{
     margin-top: 1.5rem;
@@ -49,8 +59,14 @@ body{
     text-align: center;
     width: 100%;
 }
-.titulo img{
-    width: 15rem;
+.titulo{
+    background-image: url(img/titulo_dev.png);
+    background-size: 12rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    content: "";
+    width: 16rem;
+    height: 4rem;
 }
 .nome{
     color: var(--branco);
@@ -66,20 +82,23 @@ body{
         margin: 0 auto;
     }
     .box-principal{
-        height: 31rem;
+        height: 30.5rem;
         display: block;
     }
     .box-left{
-        height: 10rem;
-        width: 100%;
-        margin-top: 1rem;
-    }
-    .foto img{
-        width: 10rem;
+        height: 8rem;
+        margin: 1rem auto;
     }
     .box-right{
-        margin-top: 3.5rem;
         width: 100%;
         text-align: center;
+        margin: 3.5rem auto;
+    }
+    .titulo{
+        background-size: 100%;
+        width: 12rem;
+    }
+    .nome{
+        margin-top: -.5rem;
     }
 }
