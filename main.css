@@ -16,14 +16,17 @@ main h1{
     font-weight: bold;
     margin: 30px 0;
 }
+main p, a, li{
+    color: #737373;
+}
 main p:hover{
-    color: #5e5e5e;
+    color: #4b4b4b;
 }
 main a:hover{
-    color: #5e5e5e;
+    color: #4b4b4b;
 }
 main li:hover{
-    color: #5e5e5e;
+    color: #4b4b4b;
 }
 main h1::before{
     content:"</>";
@@ -48,7 +51,6 @@ main p{
     border-left: 1px dashed #cccccc;
 }
 .contato a{
-    color: #000000;
     line-height: 22px;
     text-decoration: none;
     font-size: 15px;
@@ -150,7 +152,7 @@ main p{
     margin-top: 20px;
 }
 .cert:hover{
-    color: black;
+    color: #4b4b4b;
 }
 .certificacao strong{
     user-select: text;
@@ -164,7 +166,6 @@ main p{
     margin-left: .3rem;
 }
 .linkedin a{
-    color: black;
     text-decoration: none;
 }
 .linkedin a::before{
@@ -181,7 +182,6 @@ main p{
     margin-bottom: 40px;
 }
 .github a{
-    color: black;
     text-decoration: none;
 }
 .github a::before{
